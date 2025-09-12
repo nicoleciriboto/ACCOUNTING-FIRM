@@ -29,7 +29,9 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center space-x-2">
+          <a href="#home">
             <img src="/cirisLogo.png" alt="Ciris Logo" className="h-10 w-10 object-contain" />
+          </a>
           </div>
 
           {/* Desktop Navigation */}

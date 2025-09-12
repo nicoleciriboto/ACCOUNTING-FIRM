@@ -14,7 +14,7 @@ const Hero = () => {
               Serving SMEs Across Southern Africa & Beyond
             </div>
             
-            <h1 className="text-5xl lg:text-6xl font-semibold text-gray-900 leading-tight mb-6">
+            <h1 className="text-6xl lg:text-6xl font-semibold text-gray-900 leading-tight mb-6">
               Unlock Your 
               <span className="block text-teal-600">Financial Potential</span>
             </h1>
@@ -28,7 +28,7 @@ const Hero = () => {
                 Get Started Today
                 <ArrowRight size={20} className="ml-2" />
               </a>
-              <a href='#footer' className="inline-flex items-center px-8 py-4 border border-gray-300 text-gray-700 font-semibold rounded-none hover:bg-gray-50 transition-colors duration-200">
+              <a href='#contact' className="inline-flex items-center px-8 py-4 border border-gray-300 text-gray-700 font-semibold rounded-none hover:bg-gray-50 transition-colors duration-200">
                 Schedule Consultation
               </a>
             </div>
