@@ -9,7 +9,7 @@ const Testimonials = () => {
       location: 'Johannesburg, South Africa',
       image: 'https://images.pexels.com/photos/3777931/pexels-photo-3777931.jpeg?auto=compress&cs=tinysrgb&w=400',
       rating: 5,
-      text: 'AfriAccounting transformed our financial management completely. Their expertise in SME accounting helped us grow from a 5-person team to 50 employees while maintaining perfect compliance. Sarah and her team are simply exceptional.',
+      text: 'Ciris Business World transformed our financial management completely. Their expertise in SME accounting helped us grow from a 5-person team to 50 employees while maintaining perfect compliance. Sarah and her team are simply exceptional.',
       results: '300% revenue growth, Zero compliance issues'
     },
     {
@@ -18,7 +18,7 @@ const Testimonials = () => {
       location: 'Harare, Zimbabwe',
       image: 'https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=400',
       rating: 5,
-      text: 'Working with AfriAccounting has been a game-changer for our tech startup. Their international expertise helped us navigate complex cross-border taxation when we expanded to three countries. Highly recommended!',
+      text: 'Working with Ciris Business World has been a game-changer for our tech startup. Their international expertise helped us navigate complex cross-border taxation when we expanded to three countries. Highly recommended!',
       results: 'Expanded to 3 countries, 40% cost savings on tax'
     },
     {
@@ -113,7 +113,7 @@ const Testimonials = () => {
               Schedule a free consultation today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-8 py-4 bg-teal-600 text-white font-semibold rounded-lg hover:bg-teal-700 transition-colors duration-200">
+              <button className="px-8 py-4 bg-teal-600 text-white font-semibold rounded-none hover:bg-teal-700 transition-colors duration-200">
                 Schedule Free Consultation
               </button>
 

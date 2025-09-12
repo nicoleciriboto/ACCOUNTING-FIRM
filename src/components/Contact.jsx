@@ -63,61 +63,36 @@ const Contact = () => {
 
             {/* Office Locations */}
             <div className="space-y-6">
-              <h4 className="text-lg font-semibold text-slate-800">Our Offices</h4>
+              <h4 className="text-lg font-semibold text-slate-800">Our Office</h4>
               
-              {/* Johannesburg Office */}
+              {/* Harare Office */}
               <div className="bg-white p-6 rounded-lg shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
                 <div className="flex items-start space-x-4">
                   <div className="bg-teal-100 p-2 rounded-lg">
                     <MapPin className="w-5 h-5 text-teal-600" />
                   </div>
                   <div>
-                    <h5 className="font-semibold text-slate-800">Johannesburg (Head Office)</h5>
+                    <h5 className="font-semibold text-slate-800">Harare (Head Office)</h5>
                     <p className="text-slate-600 mt-1">
-                      123 Business District, Sandton<br />
-                      Johannesburg, 2196<br />
-                      South Africa
+                      Suite 410, Electra House, 3rd Floor<br />
+                      49 Samora Machel Avenue<br />
+                      Harare, Zimbabwe
                     </p>
                     <div className="mt-3 space-y-1">
                       <div className="flex items-center space-x-2">
                         <Phone className="w-4 h-4 text-teal-600" />
-                        <span className="text-slate-600">+27 11 123 4567</span>
+                        <span className="text-slate-600">+263 77 688 9459</span>
                       </div>
                       <div className="flex items-center space-x-2">
                         <Mail className="w-4 h-4 text-teal-600" />
-                        <span className="text-slate-600">jhb@afriaccounting.co.za</span>
+                        <span className="text-slate-600">cirisbusinessworld@gmail.com</span>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Cape Town Office */}
-              <div className="bg-white p-6 rounded-lg shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
-                <div className="flex items-start space-x-4">
-                  <div className="bg-teal-100 p-2 rounded-lg">
-                    <MapPin className="w-5 h-5 text-teal-600" />
-                  </div>
-                  <div>
-                    <h5 className="font-semibold text-slate-800">Cape Town</h5>
-                    <p className="text-slate-600 mt-1">
-                      456 Waterfront Plaza, V&A Waterfront<br />
-                      Cape Town, 8001<br />
-                      South Africa
-                    </p>
-                    <div className="mt-3 space-y-1">
-                      <div className="flex items-center space-x-2">
-                        <Phone className="w-4 h-4 text-teal-600" />
-                        <span className="text-slate-600">+27 21 987 6543</span>
-                      </div>
-                      <div className="flex items-center space-x-2">
-                        <Mail className="w-4 h-4 text-teal-600" />
-                        <span className="text-slate-600">cpt@afriaccounting.co.za</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
 
               {/* Business Hours */}
               <div className="bg-white p-6 rounded-lg shadow-sm border border-slate-200">
@@ -207,13 +182,13 @@ const Contact = () => {
                     value={formData.phone}
                     onChange={handleChange}
                     className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
-                    placeholder="+27 XX XXX XXXX"
+                    placeholder="+263 XX XXX XXXX"
                   />
                 </div>
               </div>
 
               <div>
-                <label htmlFor="service" className="block text-sm font-medium text-slate-700 mb-2">
+                <label htmlFor="service" className="block text-sm font-medium text-slate-700 mb-2 cursor-pointer">
                   Service of Interest
                 </label>
                 <select
@@ -221,12 +196,12 @@ const Contact = () => {
                   name="service"
                   value={formData.service}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
+                  className="w-full px-4 py-3 cursor-pointer border border-slate-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
                 >
                   <option value="">Select a service</option>
                   <option value="bookkeeping">Bookkeeping Services</option>
                   <option value="tax">Tax Planning & Compliance</option>
-                  <option value="payroll">Payroll Management</option>
+                  <option value="payroll">Company Secretarial Services</option>
                   <option value="advisory">Business Advisory</option>
                   <option value="audit">Audit & Assurance</option>
                   <option value="other">Other</option>
@@ -274,20 +249,20 @@ const Contact = () => {
               Ready to Transform Your Business Finances?
             </h3>
             <p className="text-slate-600 mb-6">
-              Join hundreds of SMEs across Southern Africa who trust us with their financial success. 
-              Schedule your free consultation today and discover the AfriAccounting difference.
+              Join the number of SMEs across Southern Africa who trust us with their financial success. 
+              Schedule your free consultation today and discover the Ciris Business World difference.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+27111234567"
-                className="bg-teal-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-teal-700 transition-colors inline-flex items-center justify-center space-x-2"
+                href="tel:+263776889459"
+                className="bg-teal-600 text-white px-8 py-3 rounded-none font-semibold hover:bg-teal-700 transition-colors inline-flex items-center justify-center space-x-2"
               >
                 <Phone className="w-5 h-5" />
                 <span>Call Now</span>
               </a>
               <a
-                href="mailto:info@afriaccounting.co.za"
-                className="bg-white text-teal-600 px-8 py-3 rounded-lg font-semibold border-2 border-teal-600 hover:bg-teal-50 transition-colors inline-flex items-center justify-center space-x-2"
+                href="mailto:cirisbusinessworld@gmail.com"
+                className="bg-white text-teal-600 px-8 py-3 rounded-none font-semibold border-2 border-teal-600 hover:bg-teal-50 transition-colors inline-flex items-center justify-center space-x-2"
               >
                 <Mail className="w-5 h-5" />
                 <span>Email Us</span>
